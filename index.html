@@ -6,6 +6,12 @@
         <title>V7</title>
         <script src="https://code.jquery.com/jquery-latest.min.js"></script>
         <script>function loadBody(f) {$("#body-placeholder").load(f);}</script>
+    </head>
+
+    <body>
+        <div id="top-placeholder"></div>
+        <script>$(function(){$("#top-placeholder").load("template/top.html");});</script>
+        <div id="body-placeholder">Hello World!</div>
         <script>
             $(document).ready(function() {
                 $(".hrefBtn").click(function(e) {
@@ -16,12 +22,6 @@
                 });
             });
         </script>
-    </head>
-
-    <body>
-        <div id="top-placeholder"></div>
-        <script>$(function(){$("#top-placeholder").load("template/top.html");});</script>
-        <div id="body-placeholder">Hello World!</div>
         <div id="bot-placeholder"></div>
         <script>$(function(){$("#bot-placeholder").load("template/bottom.html");});</script>
     </body>
