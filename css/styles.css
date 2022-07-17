@@ -2,7 +2,7 @@ body {
   background-color: grey;
 }
 
-h1, div, img, p, ul, li {
+h1, div, img, h2 {
     margin:0px;
     padding:0px;
     border-color:red;
