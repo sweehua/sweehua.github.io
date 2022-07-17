@@ -3,22 +3,19 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>Hello!</title>
+        <title>V2</title>
+        <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     </head>
 
     <body>
-        <div>
-            <div><img src="images/top_banner.jpg" style="width:100%;height:100px"></div>
+        <div id="top-placeholder"></div>
+        <script>$(function(){$("#top-placeholder").load("top.html");});</script>
             <div>
-                <a href="/">Main</a>
-                <a href="help.html">Help</a>
-                <a href="contact.html">Contact US</a>
+                <h1>Hello World!</h1>
+                <p>Hello Tim!</p>
             </div>
-            <div>
-        </div>
-        <h1>Hello World!</h1>
-        <p>Hello Tim!</p>
-                </div>
+        <div id="bot-placeholder"></div>
+        <script>$(function(){$("#bot-placeholder").load("bottom.html");});</script>
     </body>
 
 </html>
