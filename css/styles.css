@@ -1,7 +1,7 @@
 body {
   background-color: powderblue;
 }
-div {
+h1, div, img {
     margin:0px;
     padding:0px;
     border-color:red;
