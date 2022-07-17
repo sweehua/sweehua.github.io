@@ -3,9 +3,19 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>V6</title>
+        <title>V7</title>
         <script src="https://code.jquery.com/jquery-latest.min.js"></script>
         <script>function loadBody(f) {$("#body-placeholder").load(f);}</script>
+        <script>
+            $(document).ready(function() {
+                $(".hrefBtn").click(function(e) {
+                    e.preventDefault();
+                    var pageTitle =  $(this).text();
+                    var pageUrl = $(this).attr('href');
+                    $("#body-placeholder").load(pageUrl);
+                });
+            });
+        </script>
     </head>
 
     <body>
