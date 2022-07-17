@@ -1,8 +1,8 @@
 body {
-  background-color: powderblue;
+  background-color: grey;
 }
 
-h1, div, img, p,ul, li {
+h1, div, img, p, ul, li {
     margin:0px;
     padding:0px;
     border-color:red;
