@@ -3,25 +3,22 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>V12</title>
+        <title>V13</title>
         <script src="https://code.jquery.com/jquery-latest.min.js"></script>
-<!--         <script>function loadBody(f) {$("#body-placeholder").load(f);}</script> -->
         <script>function loadHTML(id,path) {$(id).load(path);}</script>
     </head>
 
     <body>
-        <div id="top-placeholder"></div>
+        <div style="margin:0;padding:0;">
+            <div id="top-placeholder"></div>
+            <div id="body-placeholder" style="background-color:#FFD6AA;text-align:center;color:white">Hello World!</div>
+            <div id="bot-placeholder"></div>
+        </div>
+        
         <script>loadHTML("#top-placeholder","template/top.html")</script>
-        
-<!--         <script>$(function(){$("#top-placeholder").load("template/top.html");});</script>
-         -->
-        <div id="body-placeholder" style="background-color:#FFD6AA;text-align:center;color:white">Hello World!</div>
-<!--         <script>loadBody("body/main.html")</script> -->
         <script>loadHTML("#body-placeholder","body/main.html")</script>
-        
-        <div id="bot-placeholder"></div>
-<!--         <script>$(function(){$("#bot-placeholder").load("template/bottom.html");});</script> -->
         <script>loadHTML("#bot-placeholder","template/bottom.html")</script>
+        
     </body>
 
 </html>
