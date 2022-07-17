@@ -7,4 +7,5 @@ h1, div, img, h2 {
     padding:0px;
     border-color:red;
     border:0px;
+    display:inline-block;
 }
