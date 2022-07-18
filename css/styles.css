@@ -23,3 +23,10 @@ h3 {
  text-align:center;
  color:#2196f3;
 }
+
+
+.body {
+  margin: 2% 22% 2% 22%;
+  border-color:red;
+  border:1px;
+}
