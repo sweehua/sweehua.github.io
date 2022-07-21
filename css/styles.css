@@ -71,7 +71,7 @@ html, body {
   font-size: var(--menu-font-size);
   padding: 0px 10px;
   text-decoration: none;
-  color: var(--c4);
+  color: var(--c1);
 }
 
 .menu a:hover {
@@ -96,15 +96,15 @@ html, body {
 .body h1 {
   text-align:center;
  }
-/*
+
  .bottom > div {
   width:var(--bottom-img-width);
   height:var(--bottom-img-height);
 }
-*/
+
  .bottom > div > img {
   width:var(--bottom-img-width);
-  /*height:var(--bottom-img-height);*/
+  height:var(--bottom-img-height);
 }
 
 .bottom h3 {
