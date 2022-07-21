@@ -71,7 +71,7 @@ html, body {
   font-size: var(--menu-font-size);
   padding: 0px 10px;
   text-decoration: none;
-  color: var(--c4);
+  color: var(--c5);
 }
 
 .menu a:hover {
