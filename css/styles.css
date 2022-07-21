@@ -32,7 +32,7 @@ html {
 
 html, body {
   /*height: 100%;*/
-  background: linear-gradient(var(--c1),var(--c2),var(--c3));
+  background: linear-gradient(to right, var(--c1),var(--c2),var(--c3));
   color: var(--c5);
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -71,7 +71,7 @@ html, body {
   font-size: var(--menu-font-size);
   padding: 0px 10px;
   text-decoration: none;
-  color: var(--c5);
+  color: var(--c1);
 }
 
 .menu a:hover {
