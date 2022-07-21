@@ -97,12 +97,12 @@ html, body {
   text-align:center;
  }
 
- .bottom div {
+ .bottom > div {
   width:var(--bottom-img-width);
   height:var(--bottom-img-height);
 }
 
- .bottom div img {
+ .bottom > div > img {
   width:var(--bottom-img-width);
   height:var(--bottom-img-height);
 }
