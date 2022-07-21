@@ -97,17 +97,17 @@ html, body {
   text-align:center;
  }
 
- .bottom > div {
+ .bottom div {
   width:var(--bottom-img-width);
   height:var(--bottom-img-height);
 }
 
- .bottom > div > img {
+ .bottom div img {
   width:var(--bottom-img-width);
   height:var(--bottom-img-height);
 }
 
-.bottom > h3 {
+.bottom h3 {
   width:100%;
   text-align:center;
   color:var(--bottom-title-color);
