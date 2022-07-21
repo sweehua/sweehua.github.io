@@ -5,17 +5,17 @@
   --c4:rgb(242, 83, 39); /*Comp color-ish, for header & footer*/
   --c5: #262626; /*text color*/
 
-  --logo-font-size: 50px;
-  --logo-img-width: 50px;
+  --logo-font-size: 25px;
+  --logo-img-width: 25px;
   --logo-font-color: var(--c4);
  
-  --menu-font-size: 30px;
+  --menu-font-size: 15px;
 
-  --body-font-size: 30px;
+  --body-font-size: 15px;
 
   --bottom-img-width: 100%;
   --bottom-img-height: 200px;
-  --bottom-font-size: 25px;
+  --bottom-font-size: 15px;
   --bottom-title-color: var(--c4);
 }
 
