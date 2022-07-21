@@ -2,25 +2,42 @@
 <html lang="en">
 
     <head>
-        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
         <title>V20</title>
         <link rel="stylesheet" href="css/styles.css">
-        <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+        <!-- <script src="https://code.jquery.com/jquery-latest.min.js"></script> -->
+        <script src="script/jquery.js"></script>
         <script>function loadHTML(id,path) {$(id).load(path);}</script>
-        <script>function loadBody(path) {loadHTML("#body-placeholder",path)}</script>
+        <script>function loadBody(page) {
+            switch (page) {
+                case "main":
+                    path = "body/main.html";
+                    break;
+                case "help":
+                    path = "body/help.html";
+                    break;
+                case "contact":
+                    path = "body/contact.html";
+                    break;
+                default:
+                    page = "main";
+                    path = "body/main.html";
+                    break;        
+            }
+        
+            loadHTML("#body-placeholder",path);
+            history.pushState({},page,"http://localhost:3000?" + page);
+            }</script>
     </head>
 
     <body>
-        <div>
-            <div class="top"    id="top-placeholder"></div>
-            <div class="body"   id="body-placeholder"></div>
-            <div class="bottom" id="bot-placeholder"> </div>
-        </div>
+        <div class="top"    id="top-placeholder"></div>
+        <div class="body"   id="body-placeholder">running</div>
+        <div class="bottom" id="bot-placeholder"> </div>
         
         <script>loadHTML("#top-placeholder","template/top.html")</script>
-        <script>loadBody("body/main.html")</script>
+        <script>loadBody(window.location.search.substring(1));</script>
         <script>loadHTML("#bot-placeholder","template/bottom.html")</script>
-        
     </body>
 
 </html>
