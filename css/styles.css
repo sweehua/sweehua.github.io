@@ -28,11 +28,12 @@
 
 html {
     font-size: 16px;
+    height:100%
 }
 
-html, body {
-  height: 100%;
-  background: linear-gradient(to right, var(--c1),var(--c2),var(--c3));
+body {
+  min-height: 100%;
+  background: linear-gradient(var(--c1),var(--c2),var(--c3));
   color: var(--c5);
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
