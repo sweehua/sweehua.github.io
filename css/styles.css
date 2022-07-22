@@ -6,7 +6,7 @@
   --c5: #262626; /*text color*/
 
   --logo-font-size: 1.5rem;
-  --logo-img-width: 1rem;
+  /*--logo-img-width: 1rem;*/
   --logo-font-color: var(--c4);
  
   --menu-font-size: 1rem;
@@ -62,7 +62,7 @@ body {
 }
 
 .logo .img {
-  width: var(--logo-img-width);
+  width: var(--logo-font-size);
   padding-left: 1%;
 }
 
