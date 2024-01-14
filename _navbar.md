@@ -1,8 +1,6 @@
 - main
     - [One](#main)
-    - [Two](#Two)
-        - [a](#a)
-        - [b](#b) 
+    - [Two](#Two) 
     - [Three](#Three)
 - Proj 1
     - [P1 C1](#c1)
